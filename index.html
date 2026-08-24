@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO DI BASE
+       Modifica title/description in base alla lingua principale
+       dei tuoi visitatori (qui impostata in italiano/inglese misto
+       perché il target sono turisti stranieri).
+  ============================================================ -->
+  <title>Visit India with Ravish | Private Tours &amp; Driver in Jaipur, Rajasthan</title>
+  <meta name="description" content="Ravish Khan: private driver and tour guide in Jaipur, Rajasthan. Custom tours, authentic dinners and local experiences across India, tailored for foreign travelers." />
+  <meta name="author" content="Ravish Khan - Visit India with Ravish" />
+  <link rel="canonical" href="https://example.com/" />
+  <!-- ^ Sostituisci con l'URL reale del sito una volta pubblicato su GitHub Pages -->
+
+  <!-- Open Graph (anteprima su WhatsApp, Facebook, ecc.) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Visit India with Ravish | Private Tours in Rajasthan" />
+  <meta property="og:description" content="Tour privati su misura in Rajasthan con Ravish Khan: auto privata, cene tipiche e attività locali autentiche." />
+  <meta property="og:image" content="images/og-cover.jpg" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:locale" content="en_GB" />
+
+  <!-- Favicon (facoltativa: aggiungi un file favicon.ico nella root se vuoi) -->
+  <link rel="icon" href="data:," />
+
+  <!-- Google Fonts: una serif elegante per i titoli + una sans-serif per il corpo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       Diventa "solida" allo scroll grazie alla classe .scrolled
+       gestita in script.js. Il menu mobile è un semplice toggle.
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a href="#home" class="navbar__brand">
+        <!-- Piccolo marchio ad arco ispirato alle finestre "jharokha" del Rajasthan -->
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Visit India <em>with</em> Ravish</span>
+      </a>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Apri il menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="navMenu" class="navbar__menu">
+        <a href="#home" class="navlink">Home</a>
+        <a href="#about" class="navlink">Ravish</a>
+        <a href="#services" class="navlink">Servizi</a>
+        <a href="#gallery" class="navlink">Galleria</a>
+        <a href="#contact" class="navlink navlink--cta">Contattami</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       1. HERO SECTION
+       Sfondo: sostituisci images/hero.jpg con una tua foto
+       (panorama del Rajasthan, forte, orizzontale, ben esposta).
+  ============================================================ -->
+  <section id="home" class="hero">
+    <div class="hero__media" role="img" aria-label="Paesaggio del Rajasthan al tramonto, con forti e palazzi tradizionali">
+      <img src="images/hero.jpg" alt="Panorama del Rajasthan al tramonto, con forti e architetture tradizionali indiane" loading="eager" />
+      <div class="hero__overlay"></div>
+    </div>
+
+    <div class="hero__content fade-in">
+      <p class="eyebrow">Jaipur &middot; Rajasthan &middot; India</p>
+      <h1 class="hero__title">Ciao, sono Ravish.<br />Il tuo autista e guida in Rajasthan.</h1>
+      <p class="hero__subtitle">
+        Tour privati su misura, cene tipiche e piccole esperienze locali,
+        pensate per farti vivere il Rajasthan come un ospite, non come un turista.
+      </p>
+      <a href="#contact" class="btn btn--primary">Contattami</a>
+    </div>
+
+    <!-- Divisore decorativo a "merletto" ispirato ai bordi tessili rajasthani -->
+    <div class="scallop-divider" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============================================================
+       2. CHI È RAVISH
+  ============================================================ -->
+  <section id="about" class="about">
+    <div class="container about__grid">
+      <div class="about__media fade-in">
+        <!-- Sostituisci images/ravish.jpg con una foto reale di Ravish -->
+        <img src="images/ravish.jpg" alt="Ritratto di Ravish Khan, guida turistica e autista privato a Jaipur" loading="lazy" class="arch-frame" />
+      </div>
+
+      <div class="about__text fade-in">
+        <p class="eyebrow">Chi sono</p>
+        <h2 class="section-title">Ravish Khan</h2>
+        <p>
+          Sono nato e cresciuto a Jaipur, nel cuore del Rajasthan, e accompagno
+          viaggiatori da tutto il mondo alla scoperta della mia terra: forti,
+          palazzi, mercati, deserti e villaggi lontani dai circuiti più battuti.
+        </p>
+        <p>
+          Guido personalmente, organizzo l'itinerario insieme a te e mi occupo
+          di ogni dettaglio pratico del viaggio, cene incluse.
+        </p>
+
+        <ul class="about__facts">
+          <li>
+            <strong>Base operativa</strong>
+            <span>Jaipur, Rajasthan</span>
+          </li>
+          <li>
+            <strong>Lingue parlate</strong>
+            <span><!-- TODO: inserisci qui le lingue reali, es. "Hindi, English" -->Da confermare con Ravish</span>
+          </li>
+          <li>
+            <strong>Esperienza</strong>
+            <span><!-- TODO: inserisci anni/dettagli reali --> Da confermare con Ravish</span>
+          </li>
+        </ul>
+
+        <p class="note">
+          * I campi sopra sono segnaposto: aggiorna lingue ed esperienza con i dati reali di Ravish prima di pubblicare.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. SERVIZI OFFERTI
+  ============================================================ -->
+  <section id="services" class="services">
+    <div class="container">
+      <p class="eyebrow center">Cosa posso offrirti</p>
+      <h2 class="section-title center">I miei servizi</h2>
+
+      <div class="services__grid">
+
+        <article class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">🚗</div>
+          <h3>Tour del Rajasthan</h3>
+          <p>
+            Itinerari privati su misura tra Jaipur, Jodhpur, Udaipur, Jaisalmer
+            e i villaggi rurali: tu scegli il ritmo, io guido e organizzo.
+          </p>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">🍛</div>
+          <h3>Cene tipiche su prenotazione</h3>
+          <p>
+            Cene tradizionali rajasthane in luoghi selezionati, per assaggiare
+            la vera cucina locale in un contesto autentico e accogliente.
+          </p>
+        </article>
+
+        <article class="service-card fade-in">
+          <div class="service-card__icon" aria-hidden="true">🏜️</div>
+          <h3>Attività personalizzate</h3>
+          <p>
+            Escursioni nel deserto, visite a mercati e villaggi, esperienze
+            culturali su richiesta: raccontami cosa cerchi, ci penso io.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. GALLERIA IMMAGINI
+       Griglia responsive + lightbox in JS puro (vedi script.js).
+       Aggiungi/rimuovi elementi <button class="gallery__item">
+       per gestire la galleria: basta rispettare la stessa struttura.
+  ============================================================ -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <p class="eyebrow center">Un assaggio del Rajasthan</p>
+      <h2 class="section-title center">Galleria</h2>
+
+      <div class="gallery__grid">
+        <button class="gallery__item fade-in" data-full="images/gallery-1.jpg">
+          <img src="images/gallery-1.jpg" alt="Forte di Amber vicino a Jaipur, Rajasthan" loading="lazy" />
+        </button>
+        <button class="gallery__item fade-in" data-full="images/gallery-2.jpg">
+          <img src="images/gallery-2.jpg" alt="Vicoli colorati della Città Rosa di Jaipur" loading="lazy" />
+        </button>
+        <button class="gallery__item fade-in" data-full="images/gallery-3.jpg">
+          <img src="images/gallery-3.jpg" alt="Deserto del Thar al tramonto in Rajasthan" loading="lazy" />
+        </button>
+        <button class="gallery__item fade-in" data-full="images/gallery-4.jpg">
+          <img src="images/gallery-4.jpg" alt="Palazzo tradizionale rajasthano affacciato su un lago" loading="lazy" />
+        </button>
+        <button class="gallery__item fade-in" data-full="images/gallery-5.jpg">
+          <img src="images/gallery-5.jpg" alt="Piatto tipico della cucina rajasthana servito su un tavolo tradizionale" loading="lazy" />
+        </button>
+        <button class="gallery__item fade-in" data-full="images/gallery-6.jpg">
+          <img src="images/gallery-6.jpg" alt="Mercato locale con spezie e tessuti colorati a Jaipur" loading="lazy" />
+        </button>
+      </div>
+
+      <p class="note center">
+        * Sostituisci i file in <code>/images</code> con le tue foto reali (stesso nome file, oppure aggiorna i percorsi qui sopra).
+      </p>
+    </div>
+  </section>
+
+  <!-- Lightbox: markup vuoto, viene riempito e mostrato/nascosto da script.js -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Chiudi la galleria">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Immagine precedente">&#8249;</button>
+    <img class="lightbox__image" id="lightboxImage" src="" alt="" />
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Immagine successiva">&#8250;</button>
+  </div>
+
+  <!-- ============================================================
+       5. CONTATTI
+       Pulsanti richiesti: Email (mailto) + TripAdvisor (nuova scheda).
+       Il form sottostante è statico: invia via mailto oppure collega
+       il tuo endpoint Formspree (vedi commento nel form).
+  ============================================================ -->
+  <section id="contact" class="contact">
+    <div class="container contact__grid">
+
+      <div class="contact__intro fade-in">
+        <p class="eyebrow">Parliamone</p>
+        <h2 class="section-title">Contattami</h2>
+        <p>
+          Scrivimi per organizzare il tuo tour privato in Rajasthan, prenotare
+          una cena tipica o chiedere informazioni su un'attività su misura.
+          Ti rispondo personalmente.
+        </p>
+
+        <div class="contact__buttons">
+          <!-- Pulsante principale richiesto: apre il client email -->
+          <a class="btn btn--primary" href="mailto:khanravish559@gmail.com">
+            Email Ravish
+          </a>
+
+          <!-- Pulsante secondario richiesto: TripAdvisor in nuova scheda -->
+          <a
+            class="btn btn--secondary"
+            href="https://www.tripadvisor.co.uk/Attraction_Review-g304555-d34314695-Reviews-Visit_india_with_Ravish-Jaipur_Jaipur_District_Rajasthan.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read reviews on TripAdvisor
+          </a>
+        </div>
+
+        <p class="contact__email-plain">
+          Oppure scrivi direttamente a:
+          <a href="mailto:khanravish559@gmail.com">khanravish559@gmail.com</a>
+        </p>
+
+        <!--
+          WHATSAPP (facoltativo):
+          Il brief richiede un numero WhatsApp, ma non è stato fornito
+          nessun numero verificato: per non inventare dati falsi, il
+          pulsante è lasciato qui commentato. Per attivarlo, rimuovi il
+          commento e inserisci il numero in formato internazionale
+          (es. 39XXXXXXXXXX, senza + né spazi).
+
+          <a class="btn btn--secondary" href="https://wa.me/39XXXXXXXXXX" target="_blank" rel="noopener noreferrer">
+            Scrivimi su WhatsApp
+          </a>
+        -->
+      </div>
+
+      <div class="contact__form-wrap fade-in">
+        <!--
+          FORM STATICO
+          Il sito non ha backend, quindi il form usa Formspree.
+          1) Crea un account gratuito su https://formspree.io
+          2) Sostituisci "YOUR_FORM_ID" qui sotto con il tuo ID form
+          In alternativa, puoi cancellare il form e lasciare solo i
+          pulsanti sopra (mailto funziona sempre, senza configurazione).
+        -->
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">La tua email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Messaggio</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn btn--primary contact-form__submit">Invia messaggio</button>
+          <p class="note">Configura Formspree (vedi commento nel codice) prima di pubblicare, oppure usa il pulsante email qui sopra.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER MINIMAL
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="brand-mark brand-mark--small" aria-hidden="true"></span>
+      <p>&copy; <span id="year"></span> Visit India with Ravish &mdash; Jaipur, Rajasthan, India.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
